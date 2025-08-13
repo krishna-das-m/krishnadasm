@@ -5,13 +5,13 @@
   brittanychiang.com - v4
 </h1>
 <p align="center">
-  The second iteration of <a href="https://krishnadasm.github.io" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The second iteration of <a href="https://krishnadasm.github.io" target="_blank">krishnadasm.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <p align="center">
   Previous iterations:
   <!-- <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
   <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>, -->
-  <a href="https://krishna-das-m.github.io" target="_blank">v3</a>
+  <a href="https://krishna-das-m.github.io" target="_blank">v1</a>
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
@@ -19,7 +19,7 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+![demo](https://raw.githubusercontent.com/krishna-das-m/krishnadasm.github.io/main/src/images/demo.png)
 
 ### TL;DR
 
