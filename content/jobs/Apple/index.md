@@ -1,8 +1,8 @@
 ---
 date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
+title: 'Doctoral Researcher'
+company: 'Warsaw University of Technology'
+location: 'Warsaw, Poland'
 range: 'July - December 2017'
 url: 'https://www.apple.com/music/'
 ---

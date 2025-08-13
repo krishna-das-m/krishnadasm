@@ -5,7 +5,7 @@
   brittanychiang.com - v4
 </h1>
 <p align="center">
-  The fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The second iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <p align="center">
   Previous iterations:
@@ -21,14 +21,6 @@
 
 ![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
 
-## 🚨 Forking this repo (please read!)
-
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
-
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
-
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
-
 ### TL;DR
 
 Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
@@ -41,13 +33,20 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
    npm install -g gatsby-cli
    ```
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm). The current Node used for this project is `node v20.19.4`
 
    ```sh
    nvm install
+   npm install --legacy-peer-deps
    ```
 
-3. Install dependencies
+   If it fails to install all the necessary dependencies, run the install command with the legacy peer deps flag:
+
+   ```sh
+   npm install --legacy-peer-deps
+   ```
+
+3. Install dependencies (Not required)
 
    ```sh
    yarn
@@ -85,3 +84,15 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 | Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
 | White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
 | Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+
+## Guidelines to change to website for your portfolio:
+
+You can start with `gatsby-config.js` where name, title, description could be changed.
+
+## To change loader logo:
+
+The loader logo could be changed by changing the text in the `src\components\icons\loader.js`
+
+## To Change Logo:
+
+The logo that appears in the top left corner of the webpage is addressed in the navigation component. `src\components\icons\logo.js`
