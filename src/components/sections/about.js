@@ -122,10 +122,7 @@ const About = () => {
       return;
     }
 
-    sr.reveal(revealContainer.current, srConfig());
-  }, []);
-
-  const skills = ['Python', 'Pytorch', 'Mlflow', 'R', 'SQL', 'MATLAB'];
+    sr.reveal(revealContainer.current, srConfig());  }, []);
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -161,12 +158,12 @@ const About = () => {
               &amp; React.
             </p> */}
 
-            <p>Here are some of my skills and frameworks I’ve been working with recently:</p>
+            {/* <p>Here are some of my skills and frameworks I’ve been working with recently:</p> */}
           </div>
 
-          <ul className="skills-list">
+          {/* <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
+          </ul> */}
         </StyledText>
 
         <StyledPic>
