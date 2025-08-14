@@ -122,7 +122,8 @@ const About = () => {
       return;
     }
 
-    sr.reveal(revealContainer.current, srConfig());  }, []);
+    sr.reveal(revealContainer.current, srConfig());
+  }, []);
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
