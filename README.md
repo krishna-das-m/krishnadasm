@@ -45,10 +45,10 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
    npm install --legacy-peer-deps
    ```
 
-3. Install dependencies (Not required)
+3. Build using gatsby. This creates .cache and public directories, which is necessary for the local development server.
 
    ```sh
-   yarn
+   gatsby build
    ```
 
 4. Start the development server
@@ -56,6 +56,12 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
    ```sh
    npm start
    ```
+
+If this steps fails, try running the following command and repeating the build process:
+
+```sh
+  npm run clean
+```
 
 ## 🚀 Building and Running for Production
 
