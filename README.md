@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/krishna-das-m/krishnadasm.github.io/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  brittanychiang.com - v4
+  krishnadasm.github.io - v2
 </h1>
 <p align="center">
   The second iteration of <a href="https://krishnadasm.github.io" target="_blank">krishnadasm.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
@@ -37,7 +37,6 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 
    ```sh
    nvm install
-   npm install --legacy-peer-deps
    ```
 
    If it fails to install all the necessary dependencies, run the install command with the legacy peer deps flag:
@@ -85,14 +84,43 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 | White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
 | Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
 
-## Guidelines to change to website for your portfolio:
+# Portfolio Website Customization Guide
 
-You can start with `gatsby-config.js` where name, title, description could be changed.
+This guide explains how to personalize key elements of your portfolio website.
 
-## To change loader logo:
+## Basic Site Information
 
-The loader logo could be changed by changing the text in the `src\components\icons\loader.js`
+To update your site's fundamental details, modify the `gatsby-config.js` file in your project root. Here you can customize:
 
-## To Change Logo:
+- **Site name** - The internal name of your site
+- **Title** - What appears in browser tabs and search results
+- **Description** - Meta description for SEO and social sharing
 
-The logo that appears in the top left corner of the webpage is addressed in the navigation component. `src\components\icons\logo.js`
+## Customizing the Loading Animation
+
+The animated logo that displays while your site loads can be modified by editing the text content in:
+
+```
+src/components/icons/loader.js
+```
+
+Simply replace the existing text with your preferred loading message or logo text.
+
+## Updating the Main Logo
+
+The logo displayed in the top-left corner of your website's navigation bar is controlled by:
+
+```
+src/components/icons/logo.js
+```
+
+Edit this file to replace the current logo with your own design or text-based logo.
+
+## Getting Started
+
+1. Clone or download the project
+2. Navigate to the project directory
+3. Make your desired changes to the files mentioned above
+4. Test your changes locally before deploying
+
+For additional customization options, explore the other components in the `src/components` directory.
